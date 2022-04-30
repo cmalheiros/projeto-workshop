@@ -23,9 +23,43 @@ header{
     font-size: 26px;
 }
 section{
-    color:antiquewhite;
+    padding: 20px;
+    background-image: url("../imagens/people.jpg");
+    background-size: cover;
+    overflow: hidden;
+    
 }
 
 .formContainer{
-
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 25px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    background-color:rgba(31, 82, 31, 0.884);
+    color:#ffffff;
+    font-weight: bolder;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("../imagens/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
 }
