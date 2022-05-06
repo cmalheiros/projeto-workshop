@@ -69,8 +69,8 @@ var entre = maior20 && menor30;
 console.log("idade:", idade);
 console.log("Maior que 20:", maior20);
 console.log("Menor que 30:", menor30);
-console.log("Entre 20 e 30 anos:", entre);*/
-/*var idade = 8;
+console.log("Entre 20 e 30 anos:", entre);
+var idade = 8;
 
 var maior65 = idade >=65;
 var menor10 = idade <=10;
@@ -79,5 +79,27 @@ var gratuidade = maior65 || menor10;
 console.log("idade:", idade);
 console.log("Maior que 65:", maior65);
 console.log("Menor que 10:", menor10);
-console.log("Tem direito a gratuidade?", gratuidade);
-*/
+console.log("Tem direito a gratuidade?", gratuidade);*/
+
+// if e else
+
+//situação: gratuidade no ônibus:  <= 7 e 60 gratuido, >= 8 e 61 paga. 
+var idade = -12;
+console.log("Idade:", idade);
+if (idade >= 61) {
+    console.log("Passe o RioCard");
+    console.log(" ou Pague no din din");
+
+}
+else if (idade >=61) {
+    console.log("Mostre a identidade");
+    console.log("Passe o RioCard ou pague no dindin");
+}
+else  {
+    console.log("Entre de graça");
+    console.log("Vá para porta de trás")
+}
+
+
+
+
