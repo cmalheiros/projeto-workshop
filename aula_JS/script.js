@@ -21,8 +21,21 @@ console.log(a + c);
 % módulo que é o resultado do resto da divisão.
 ++ incremento, adiciona mais 1
 -- decremento, diminui 1
-*/
+
 var d = 10;
 var e = 100;
 var f = e * d;
 console.log(f)
+*/
+
+/*atriibuições
+//=   x = y  x = y
+//+=  x += y  x = x + y
+//-=  x -= y  x = x - y
+//*=  x *= y  x = x * y
+//%=  x %= y  x = x % y 
+*/
+
+var a = 10;
+a *= 3;
+console.log(a);
